@@ -36,8 +36,10 @@
   background-color: #f8512f;
 }
 
-.btn {
-  background-color: #f8512f;
+.btn-primary,
+.btn-primary:hover{
+background-color: #f8512f;
+border-color: #f8512f;
 }
 
   /* carousel imgs */
