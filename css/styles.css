@@ -1,3 +1,10 @@
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+/* end global styles */
+
 .navbar-default {
   background-color: transparent;
   border: transparent;
@@ -60,3 +67,34 @@ border-color: #f8512f;
 }
 
   /* end carousel  */
+
+#our-story {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+#our-story h1 {
+  font-family: 'Lobster', cursive;
+  color: #f8512f;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+  }
+
+  #our-story h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 12em;
+    color: rgba(149, 147, 147, 0.2);
+    position: absolute;
+    z-index: -1;
+  }
+
+#our-story h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 0;
+  }
+
+  /* end our-story */
