@@ -143,10 +143,6 @@ border-color: #f8512f;
   text-transform: uppercase;
 }
 
-#menu .container div.row:nth-child(2n) {
-  margin-left: 0;
-}
-
 #menu .tab-pane .row {
   margin: 0;
 }
@@ -178,8 +174,10 @@ border-color: #f8512f;
   padding: 15px;
 }
 
-#contact .form-group span {
+#contact .form-group span,
+#fine-print span {
   color: #ff0d06;
+  font-size: 1.6em;
 }
 
 #contact h5 {
